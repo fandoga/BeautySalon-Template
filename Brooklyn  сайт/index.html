@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Jost&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Brooklyn</title>
+</head>
+
+<body>
+    <a href="#top" id="back_to_top" class="back_to_top">
+        <img src="assets/img/back-to-the-top.jpg" alt="">
+    </a>
+    <div class="top">
+        <div class="center">
+            <header class="header">
+                <div class="header_content">
+                    <a href="index.html" class="logo">
+                        <img src="assets/img/Logo.png" alt="">
+                    </a>
+                    <div class="menu">
+                        <div class="menu_links">
+                            <a class="menu_link Main_link menu_link__active hover_anim yellow" data-target=".top"
+                                href="">Главная</a>
+                            <a class="menu_link AboutUs_link hover_anim" data-target=".AboutBar" href="">О нас</a>
+                            <a class="menu_link Services_link hover_anim" data-target=".ServicesInfo" href="">Услуги</a>
+                            <a class="menu_link Contacts_link hover_anim" data-target=".footer" href="">Контакты</a>
+                        </div>
+                        <button data-link="SignUp" class="button">Записаться</button>
+                    </div>
+                    <div class="dropdown_wrapper">
+                        <img class="dropdown_icon" src="assets/img/dropdown_icon.svg" alt="">
+                        <nav class="dropdown_content">
+                            <a class="menu_link Main_link hover_anim" data-target=".top" href="">Главная</a>
+                            <a class="menu_link AboutUs_link hover_anim" data-target=".AboutBar" href="">О нас</a>
+                            <a class="menu_link Services_link hover_anim" data-target=".ServicesInfo" href="">Услуги</a>
+                            <a class="menu_link Contacts_link hover_anim" data-target=".footer" href="">Контакты</a>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+            <section class="top_content">
+                <div class="top_info">
+                    <h3 class="subtitle">Добро пожаловать в Brooklyn</h3>
+                    <h1 class="top_title">Лучшee место для cоздания вашего образа</h1>
+                    <p class="top_text">
+                        Brooklyn предлагает эффективные индивидуальные процедуры по уходу за лицом, которые
+                        обеспечат вам шикарный результаты.
+                    </p>
+                    <button data-link="SignUp" class="button">Записаться</button>
+                    <button data-target=".ServicesInfo" class="button__top">Услуги</button>
+                </div>
+            </section>
+        </div>
+        <div class="top_img-wrapper">
+            <img class="top_img" src="assets/img/pic1.png" alt="">
+        </div>
+    </div>
+    <div class="mid">
+        <div class="center">
+            <section class="InfoBar AboutBar">
+                <div class="AboutUs">
+                    <div class="AboutUs_info">
+                        <h3 class="subtitle">О нас</h3>
+                        <h2 class="title">Лучший барбершоп по версии 2GIS</h2>
+                        <p class="mid_text">Позвольте нашим парикмахерам сделать свою потрясающую работу.
+                            Подстригите
+                            волосы, чтобы придать им желаемый вид. Запишитесь к нам на прием, чтобы сделать ваши любимые
+                            прически!
+                        </p>
+                        <a
+                            href="https://yandex.ru/maps/35/krasnodar/?ll=38.978520%2C45.048643&mode=poi&poi%5Bpoint%5D=38.978259%2C45.048308&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D76432434820&utm_content=more-reviews&utm_medium=reviews&utm_source=maps-reviews-widget&z=18.23">
+                            <button class="button">Узнать больше</button>
+                        </a>
+                    </div>
+                    <div class="AboutUs_imageBlock">
+                        <img src="assets/img/pic3.png" alt="">
+                        <img src="assets/img/pic4.png" alt="">
+                        <img class="overlay" src="assets/img/pic2.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="ContactBar">
+            <div class="ContactBar_content center">
+                <div class="ContactBar_info">
+                    <h3 class="subtitle">Запишитесь уже сейчас</h3>
+                    <h2 class="title_white">Запишитесь на стрижку
+                        к нам</h2>
+                    <p class="ContactBar_text">
+                        Получите скидку 10% при первой записи
+                        через наш сайт
+                    </p>
+                    <button data-link="SignUp" class="button_contact">Записаться</button>
+                </div>
+                <div class="ContactBar_phone">
+                    <a href="tel:+79994442211" class="phone_number">
+                        <svg width="101" height="100" viewBox="0 0 101 100" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50.3096" cy="50" r="50" fill="#E8E8E8" />
+                            <path
+                                d="M66.34 58.9616L58.9023 54.9865C58.5846 54.8176 58.2315 54.7821 57.8961 54.8851C57.5608 54.9882 57.2613 55.2243 57.0429 55.5579L53.7491 60.5765C48.5798 57.537 44.4197 52.3491 41.9824 45.9026L46.0067 41.795C46.2747 41.5231 46.4645 41.1496 46.5472 40.7312C46.6298 40.3128 46.6009 39.8722 46.4649 39.4761L43.2773 30.2009C43.128 29.7739 42.8638 29.4253 42.5305 29.2151C42.1971 29.005 41.8154 28.9465 41.4511 29.0498L34.5447 31.0373C34.1936 31.1385 33.8802 31.385 33.6559 31.7368C33.4316 32.0886 33.3095 32.5249 33.3096 32.9744C33.3096 54.2163 47.1157 71.4004 64.1226 71.4004C64.4831 71.4007 64.8331 71.2485 65.1153 70.9687C65.3976 70.689 65.5954 70.2981 65.6765 69.86L67.2703 61.2473C67.3526 60.7908 67.3047 60.3129 67.1349 59.8957C66.9651 59.4786 66.684 59.1482 66.34 58.9616Z"
+                                fill="#658979" />
+                        </svg>
+                    </a>
+                    <p class="small_text">Позвонить</p>
+                    <a href="tel:+79180366469" class="phone_number">79180366469</a>
+                </div>
+            </div>
+        </section>
+        <section class="workflowBar center">
+            <div class="workflow_content">
+                <div class="imageBlock">
+                    <img class="imageBlock_img" src="assets/img/pic5.png" alt="">
+                </div>
+                <div class="workflow_info">
+                    <h2 class="back_text">РАБОТА</h2>
+                    <h2 class="workflow_title">Рабочие дни</h2>
+                    <h3 class="subtitle_black">Мы открыты 6 дней в неделю</h3>
+                    <div class="line">
+                        <p class="work_days">Пн-Пятница</p>
+                        <p class="work_time">10:00 - 22:00</p>
+                    </div>
+                    <div class="line">
+                        <p class="work_days">Выходные</p>
+                        <p class="work_time">10:00 - 19:00</p>
+                    </div>
+                    <button data-link="SignUp" class="button_black">Записаться</button>
+                </div>
+            </div>
+        </section>
+        <section class="ReviewBar center">
+            <div class="Review_content">
+                <div class="Review_Upper">
+                    <div class="Review_Img">
+                        <div class="Review_imageBlock">
+                            <img src="assets/img/pic3.png" alt="">
+                            <img src="assets/img/pic4.png" alt="">
+                            <img class="overlay" src="assets/img/pic2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="Review_info">
+                        <h3 class="subtitle">Рекомендации</h3>
+                        <h2 class="title">Что наши клиенты
+                            говорят о нас</h2>
+                        <p class="mid_text">
+                            Позвольте нашим парикмахерам сделать свою потрясающую работу. Подстригите волосы, чтобы
+                            придать
+                            им желаемый вид. Запишитесь к нам на прием, чтобы сделать ваши любимые прически!
+                        </p>
+                        <a
+                            href="https://yandex.ru/maps/org/brooklyn/76432434820/reviews/?ll=38.978196%2C45.048348&utm_content=more-reviews&utm_medium=reviews&utm_source=maps-reviews-widget&z=16">
+                            <button class="button">Наши отзывы</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="Review_Block">
+                    <div class="Review_Block_item">
+                        <div class="Map_container" style="height:800px;overflow:hidden;position:relative;">
+                            <iframe
+                                style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box"
+                                src="https://yandex.ru/maps-reviews-widget/76432434820?comments"></iframe><a
+                                href="https://yandex.ru/maps/org/brooklyn/76432434820/" target="_blank"
+                                style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Brooklyn
+                                на карте Краснодара — Яндекс Карты</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ServicesBar">
+            <div class="center">
+                <div class="ServicesInfo">
+                    <h3 class="subtitle">Услуги</h3>
+                    <h2 class="title_white">Вот что мы предлагаем</h2>
+                    <p class="ServicesInfo_text">Мы предлагаем широкий спектр услуг, включая классические мужские
+                        стрижки,
+                        оформление бороды и детскую стрижку</p>
+                </div>
+                <div class="ServicesBlock">
+                    <div data-link="Service_1" class="ServicesBlock_item">
+                        <div class="ServicesBlock_item_img_container">
+                            <img id="1" class="ServicesBlock_item_img" src="assets/img/service_1.jpg" alt="">
+                        </div>
+                        <div id="1" class="ServicesBlock_item_info">
+                            <p id="1" class="ServicesBlock_item_title">Мужская стрижка</p>
+                            <p id="1" class="ServicesBlock_item_title">от 1200 руб.</p>
+                        </div>
+                    </div>
+                    <div data-link="Service_2" class="ServicesBlock_item ServicesBlock_item_big">
+                        <div class="ServicesBlock_item_img_container">
+                            <img id="2" class="ServicesBlock_item_img" src="assets/img/service_2.jpg" alt="">
+                        </div>
+                        <div id="2" class="ServicesBlock_item_info">
+                            <p id="2" class="ServicesBlock_item_title">Оформление бороды</p>
+                            <p id="2" class="ServicesBlock_item_title">от 800 руб.</p>
+                        </div>
+                    </div>
+                    <div data-link="Service_3" class="ServicesBlock_item">
+                        <div class="ServicesBlock_item_img_container">
+                            <img id="3" class="ServicesBlock_item_img" src="assets/img/service_3.jpg" alt="">
+                        </div>
+                        <div id="3" class="ServicesBlock_item_info">
+                            <p id="3" class="ServicesBlock_item_title">Детская стрижка</p>
+                            <p id="3" class="ServicesBlock_item_title">от 750 руб.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="MastersBar center">
+            <div class="MastersBar_content">
+                <div class="MastersBar_info">
+                    <h3 class="subtitle">Мастера</h3>
+                    <h2 class="title">Наши барберы</h2>
+                    <p class="MastersBar_text">Для вас работают лучшие барберы в городе. Мы предлагаем широкий спектр
+                        услуг, мужские стрижки, оформление бороды и другое</p>
+                </div>
+                <div class="MastersBlock">
+                    <a href="https://n1174179.yclients.com/company/1077045/personal/select-master/master-info/1077045/3461537?o="
+                        class="MastersBlock_item item_1">
+                        <div class="MastersBlock_img_container">
+                            <img src="assets/img/master_1.jpg" alt="">
+                        </div>
+                        <p class="MastersBlock_item_name">Богдан</p>
+                    </a>
+                    <a href="https://n1174179.yclients.com/company/1077045/personal/select-master/master-info/1077045/3311167?o="
+                        class="MastersBlock_item item_2">
+                        <div class="MastersBlock_img_container">
+                            <img src="assets/img/master_2.jpg" alt="">
+                        </div>
+                        <p class="MastersBlock_item_name">Армен</p>
+                    </a>
+                    <a href="https://n1174179.yclients.com/company/1077045/personal/select-master/master-info/1077045/3646687?o="
+                        class="MastersBlock_item item_3">
+                        <div class="MastersBlock_img_container">
+                            <img src="assets/img/master_3.jpg" alt="">
+                        </div>
+                        <p class="MastersBlock_item_name">Араик</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div style=" position:relative;overflow:hidden;"><a
+                href="https://yandex.ru/maps/org/brooklyn/76432434820/?utm_medium=mapframe&utm_source=maps"
+                style="color:#eee;font-size:12px;position:absolute;top:0px;">Brooklyn</a><a
+                href="https://yandex.ru/maps/35/krasnodar/category/barber_shop/239628851835/?utm_medium=mapframe&utm_source=maps"
+                style="color:#eee;font-size:12px;position:absolute;top:14px;">Барбершоп в
+                Краснодаре</a><iframe
+                src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=38.978196%2C45.048348&mode=search&oid=76432434820&ol=biz&z=17.11"
+                width="100%" height="490" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="center">
+            <div class="footer_top_content">
+                <img src="assets/img/Logo.png" alt="">
+                <div class="footer_buttons">
+                    <h2 class="footer_title">Готовы начать?</h2>
+                    <button data-link="SignUp" class="footer_button">Работаем!</button>
+                </div>
+            </div>
+            <div class="footer_info">
+                <div class="footer_info_links">
+                    <a href="" data-target=".top" class="footer_info_link hover_anim yellow">Главная</a>
+                    <a href="" data-target=".ServicesInfo" class="footer_info_link hover_anim yellow">Услуги</a>
+                    <a href="" data-target=".AboutBar" class="footer_info_link hover_anim yellow">О нас</a>
+                </div>
+                <div class="footer_info_contacts">
+                    <div class="contacts_text">
+                        <p class="contacts_text_title">Позвоните нам</p>
+                        <a href="tel:+79180366469" class="contacts_link hover_anim">+79180366469</a>
+                    </div>
+                    <div class="contacts_text">
+                        <p class="contacts_text_title">Где мы находимся</p>
+                        <a href="https://yandex.ru/maps/org/brooklyn/76432434820/?from=mapframe&indoorLevel=1&ll=38.978196%2C45.048348&z=17"
+                            class="contacts_link hover_anim">Красная улица, 149</a>
+                    </div>
+                    <div class="contacts_text">
+                        <p class="contacts_text_title">Наша почта</p>
+                        <a href="mailto:brooklyn@mail.ru" class="contacts_link hover_anim">brooklyn@mail.ru</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_late">
+                <p class="footer_label">© 2025 Все права защищены.</p>
+                <div class="logo_links">
+                    <a class="logo_link" href="insta">
+                        <svg width="26" height="21" viewBox="0 0 26 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M23.1613 0.674873C23.1613 0.674873 25.4277 -0.208877 25.2388 1.93738C25.1759 2.82114 24.6093 5.91426 24.1686 9.25991L22.6576 19.1706C22.6576 19.1706 22.5317 20.6224 21.3985 20.875C20.2652 21.1274 18.5655 19.9912 18.2506 19.7387C17.9988 19.5493 13.529 16.7087 11.955 15.3199C11.5143 14.9412 11.0107 14.1837 12.018 13.2999L18.6284 6.98742C19.3839 6.2299 20.1394 4.4624 16.9915 6.60866L8.17764 12.6056C8.17764 12.6056 7.17034 13.2368 5.28168 12.6687L1.1895 11.4062C1.1895 11.4062 -0.32146 10.4593 2.25975 9.51238C8.55541 6.54549 16.299 3.51548 23.1613 0.674873Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                    <a class="logo_link" href="https://vk.com/id871419214">
+                        <svg width="34" height="20" viewBox="0 0 34 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20.233 9.60679C19.6237 9.37767 19.6237 8.5026 19.5859 7.89323C19.4335 5.72264 20.1953 2.40885 19.2812 0.99998C18.634 0.16148 15.5104 0.238261 13.6067 0.352823C13.0729 0.429605 12.4257 0.542949 11.9687 0.772074C11.5117 1.0012 11.0546 1.38145 11.0546 1.72392C11.0546 2.21873 12.1978 2.14317 12.6159 2.79032C13.0729 3.47648 13.0729 4.96092 13.0729 6.17967C13.0729 7.58854 12.8438 9.45567 12.2734 9.53123C11.3971 9.56901 10.9023 8.69273 10.4453 8.04557C9.5312 6.78904 8.61714 5.22661 7.93098 3.70317C7.58851 2.90367 7.39717 2.02739 6.90236 1.68492C6.14064 1.15111 4.76954 1.11332 3.43623 1.15111C2.21748 1.18889 0.464919 1.03654 0.12245 1.76048C-0.144456 2.55998 0.427138 3.3217 0.731825 3.97007C2.29304 7.35942 3.96883 10.3307 6.02608 13.1485C7.93098 15.7761 9.72011 17.8711 13.224 18.9753C14.2149 19.28 18.556 20.1563 19.4323 18.9753C19.737 18.5183 19.6614 17.4897 19.8138 16.7279C19.9661 15.9662 20.1563 15.2045 20.8802 15.1667C21.4896 15.1289 21.832 15.6615 22.2135 16.043C22.6328 16.4623 22.9752 16.8047 23.2799 17.1862C24.0039 17.9101 24.7656 18.8998 25.6796 19.2812C26.9362 19.815 28.8789 19.6627 30.707 19.5859C32.1926 19.5481 33.259 19.2434 33.3736 18.3672C33.4504 17.681 32.6874 16.6914 32.2304 16.1198C31.0872 14.7109 30.5546 14.2917 29.2591 12.9961C28.6875 12.4245 27.9636 11.8152 27.9636 11.1302C27.9258 10.711 28.2683 10.3307 28.573 9.91148C29.9063 7.93101 31.2396 6.52214 32.4583 4.46489C32.8008 3.85551 33.6015 2.44664 33.2968 1.76048C32.9544 0.998762 31.0494 1.22667 29.8685 1.22667C28.345 1.22667 26.3646 1.1121 25.9831 1.41679C25.2592 1.9116 24.9545 2.71232 24.612 3.47404C23.8503 5.22661 22.8217 7.01573 21.7553 8.34904C21.3738 8.80607 20.6511 9.75792 20.2318 9.60557L20.233 9.60679Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                    <a class="logo_link" href="https://t.me/89180366469">
+                        <svg width="30" height="25" viewBox="0 0 30 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.125 0C18.9212 4.78275e-07 21.9998 3.02086 22 6.74609V14.8428C21.9998 18.568 18.9212 21.5889 15.125 21.5889H6.875C3.07875 21.5889 0.000207963 18.568 0 14.8428V6.74609C0.000247827 3.02086 3.07878 0 6.875 0H15.125ZM6.875 2.02441C4.2214 2.02441 2.06275 4.14213 2.0625 6.74609V14.8428C2.06271 17.4468 4.22138 19.5654 6.875 19.5654H15.125C17.7786 19.5654 19.9373 17.4468 19.9375 14.8428V6.74609C19.9373 4.14213 17.7786 2.02441 15.125 2.02441H6.875Z"
+                                fill="white" />
+                            <path
+                                d="M11 5.39722C14.0374 5.39722 16.5 7.81405 16.5 10.7947C16.4999 13.7752 14.0373 16.1921 11 16.1921C7.9627 16.1921 5.50012 13.7752 5.5 10.7947C5.5 7.81405 7.96263 5.39722 11 5.39722ZM11 7.42065C9.10525 7.42065 7.5625 8.93398 7.5625 10.7947C7.56266 12.6539 9.10535 14.1677 11 14.1677C12.8947 14.1677 14.4373 12.6539 14.4375 10.7947C14.4375 8.93398 12.8947 7.42065 11 7.42065Z"
+                                fill="white" />
+                            <ellipse cx="16.9125" cy="4.99237" rx="0.732875" ry="0.719181" fill="white" />
+                            <path
+                                d="M26.135 24.6L26.315 22.305L24.455 23.61L23.93 22.695L26.015 21.78L23.945 20.88L24.44 19.995L26.33 21.3L26.12 19.005H27.14L26.915 21.3L28.79 19.995L29.27 20.865L27.2 21.795L29.285 22.71L28.79 23.595L26.915 22.305L27.125 24.6H26.135Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer_microinfo">
+                <p class="footer_microinfo_text">*признан в РФ экстремистской организацией</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>

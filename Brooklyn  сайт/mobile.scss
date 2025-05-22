@@ -1,0 +1,106 @@
+@media (max-width: 815px) {
+    .center {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .back_to_top {
+        transform: scale(0.15);
+        right: -110px;
+    }
+
+    .header {
+        height: 200px;
+        display: block;
+        align-items: flex-start;
+    }
+
+    .dropdown_icon {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .top_img-wrapper {
+        display: none;
+    }
+
+    .top_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top_info {
+        margin-top: 52px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button__top {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .ContactBar_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ContactBar_info {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ContactBar_phone {
+        display: none;
+    }
+
+    .imageBlock {
+        display: none;
+    }
+
+    .workflow_content {
+        justify-content: center;
+    }
+
+    .workflow_info {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .workflow_title {
+        padding: 0;
+    }
+
+    .line {
+        width: 100%;
+    }
+
+    .Map_container {
+        width: calc(100vw - 40px);
+    }
+
+    .ServicesInfo h2 {
+        text-align: center;
+    }
+
+    .ServicesBlock_item {
+        width: 405px;
+    }
+
+    .footer_title {
+        display: none;
+    }
+
+    .logo_links {
+        transform: translateX(0);
+    }
+}
