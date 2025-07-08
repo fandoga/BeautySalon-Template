@@ -1,0 +1,81 @@
+@media (max-width: 1150px) {
+  .center {
+    padding-left: calc(50% - 400px);
+    padding-right: calc(50% - 400px);
+  }
+  .top_social_title {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+  .nav_icons {
+    display: flex;
+  }
+  .top_img_wrapper {
+    margin-left: -140px;
+  }
+  .top_content_info {
+    margin-left: 50%;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .features_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .features_info {
+    text-align: center;
+  }
+  .features_item_text, .features_item_title {
+    text-align: left;
+  }
+  .features_img_wrapper {
+    display: none;
+  }
+  .white_subtitle {
+    font-size: 22px;
+  }
+  .services_content {
+    padding-left: calc(50% - 550px + 325px);
+    padding-right: calc(50% - 550px + 325px);
+  }
+  .services_item {
+    width: 100%;
+  }
+  .reviews_block {
+    height: 190px;
+  }
+  .review_img {
+    transform: scale(0.6);
+    right: 32px;
+  }
+  .review_info {
+    left: -250px;
+  }
+  .masters_content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .masters_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 360px;
+    width: 100%;
+  }
+  .masters_list {
+    -moz-column-gap: 120px;
+         column-gap: 120px;
+    padding-bottom: 50px;
+  }
+  .footer_content {
+    gap: 45px;
+  }
+}/*# sourceMappingURL=tablet.css.map */
